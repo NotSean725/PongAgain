@@ -1379,13 +1379,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 949065615}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53f92183c904d4f3fa5da0b606a7cc07, type: 3}
+  m_Script: {fileID: 11500000, guid: 18c1bff6f5d9f134ba19798f11d6ef85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 5
-  direction: {x: -1, y: 0, z: 0}
-  maxXposition: 7
-  speedAdder: 1.5
+  ballPrefab: {fileID: 2486742630272486349, guid: 27626ad8b8bba1a4bb09d693feca1faa, type: 3}
+  xDirectionToServe: -1
 --- !u!4 &949065617
 Transform:
   m_ObjectHideFlags: 0
@@ -2844,6 +2842,10 @@ PrefabInstance:
     - target: {fileID: 2486742630272486346, guid: 27626ad8b8bba1a4bb09d693feca1faa, type: 3}
       propertyPath: m_Name
       value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 2486742630272486346, guid: 27626ad8b8bba1a4bb09d693feca1faa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27626ad8b8bba1a4bb09d693feca1faa, type: 3}
